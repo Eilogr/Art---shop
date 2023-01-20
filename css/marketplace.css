@@ -1,0 +1,47 @@
+.marketplace {
+    display: none;
+    flex-flow: row;
+    justify-content: center;
+    width: 100%;
+    min-height: 100%;
+}
+.marketplace .contentGallery {
+    background-image: url(../images/mpBorder3.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
+}
+.formContent {
+    display: flex;
+    flex-flow: column;
+    font-size: 24px;
+}
+.formContent div {
+    margin: 2%;
+    display: flex;
+    flex-flow: column;
+}
+.formContent div input, .formContent div textarea {
+    font-size: 24px;
+}
+.decoration3 {
+    background-image: url(../images/mpBorder1.png);
+}
+.decoration4 {
+    background-image: url(../images/mpBorder2.png);
+}
+.decoration3, .decoration4 {
+    width: 2.5%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 45%;
+}
+.send {
+    background-image: url(../images/mpButton.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 24px;
+    width: 20%;
+}
