@@ -152,7 +152,7 @@ option:hover {
 .product {
     background-color: white;
     width: 27%;
-    margin-bottom: 1%;
+    margin-bottom: 3%;
     display: flex;
     flex-flow: column;
 }
