@@ -26,21 +26,18 @@ section {
     justify-content: center;
 }
 .contentConteiner {
-    width: 80%;
+    width: 50%;
     display: flex;
     justify-content: flex-start;
-    align-items: flex-end;
+    align-items: center;
     flex-flow: column;
     padding: 10% 0 0 0;
 }
 .userName, .userPassword {
-    margin: 1%;
+    margin: 0.5%;
+    display: flex;
     justify-content: center;
-    flex-flow: row;
-    margin-right: 35%;
-}
-.registration {
-    margin-right: 44%;
+    flex-flow: column;
 }
 .registration a {
     font-size: 16px;
@@ -57,6 +54,7 @@ span, input, a {
 }
 .button {
     width: 100%;
+    margin: 0.5%;
 }
 .loginButton {
     background-image: url(../images/mpButton.png);

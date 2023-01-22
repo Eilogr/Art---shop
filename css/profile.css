@@ -1,0 +1,86 @@
+.backButton {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.exitButton {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+section {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+section .profile {
+    width: 80%;
+    background-color: white;
+    padding: 1%;
+}
+.nickname {
+    font-size: 30px;
+}
+.setting {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    width: 100%;
+}
+.setting input{
+    background-color: rgb(209, 209, 209);
+}
+.setting div div {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0.5%;
+}
+.setting1, .setting2 {
+    width: 50%;
+}
+span {
+    font-size: 16px;
+    margin-right: 2%;
+}
+.button {
+    margin: 0;
+}
+.loginButton {
+    width: 10%;
+    float: right;
+    background-color: white;
+}
+/*PURCHASE HISTORY*/
+.history {
+    width: 80%;
+    padding: 1%;
+}
+.historyTitle {
+    font-size: 30px;
+}
+.historyBorder img {
+   width: 100%;
+}
+/*ITEM*/
+.historyItem {
+    display: flex;
+    flex-flow: row;
+    background-color: white;
+    padding: 1%;
+}
+.itemImage {
+    width: 15%;
+}
+.itemImage img {
+    width: 100%;
+}
+.itemText {
+    width: 75%;
+    padding: 1%;
+}
+.itemNumbers {
+    width: 10%;
+}
+
+
