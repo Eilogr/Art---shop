@@ -26,6 +26,7 @@ section .profile {
     display: flex;
     flex-flow: row;
     align-items: center;
+    justify-content: center;
     width: 100%;
 }
 .setting input{
@@ -36,15 +37,18 @@ section .profile {
     justify-content: flex-end;
     margin-top: 0.5%;
 }
-.setting1, .setting2 {
-    width: 50%;
+.setting1 {
+    width: 38%;
+}
+.setting2 {
+    width: 52%;
 }
 span {
     font-size: 16px;
     margin-right: 2%;
 }
 .button {
-    margin: 0;
+    margin: 2% 0 0 0;
 }
 .loginButton {
     width: 10%;
@@ -52,9 +56,9 @@ span {
     background-color: white;
 }
 /*PURCHASE HISTORY*/
-.history {
+.history, .profile {
     width: 80%;
-    padding: 1%;
+    margin-top: 2%;
 }
 .historyTitle {
     font-size: 30px;
@@ -68,6 +72,7 @@ span {
     flex-flow: row;
     background-color: white;
     padding: 1%;
+    margin-top: 1%;
 }
 .itemImage {
     width: 15%;
@@ -77,10 +82,27 @@ span {
 }
 .itemText {
     width: 75%;
-    padding: 1%;
+    padding:  0 1% 1% 1%;
+    font-size: 21px;
+}
+.itemTitle {
+    font-size: 28px;
 }
 .itemNumbers {
     width: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+}
+.itemDate {
+    display: flex;
+    justify-content: flex-end;
+}
+.itemPrice {
+    display: flex;
+    justify-content: flex-end;
+    font-style: italic;
+    font-size: 24px;
 }
 
 

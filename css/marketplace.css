@@ -7,9 +7,13 @@
 }
 .marketplace .contentGallery {
     background-image: url(../images/mpBorder3.png);
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     background-position: bottom;
-    background-size: 100%;
+    background-size: 1570px;
+    height: 1100px;
+}
+.marketplace .quote {
+    height: 75px;
 }
 .formContent {
     display: flex;
@@ -25,13 +29,14 @@
     font-size: 24px;
 }
 .decoration3 {
-    background-image: url(../images/mpBorder1.png);
+    margin-top: 2%;
+    padding-right: 1%;
 }
 .decoration4 {
-    background-image: url(../images/mpBorder2.png);
+    margin-top: 2%;
+    padding-left: 1%;
 }
 .decoration3, .decoration4 {
-    width: 2.5%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 45%;
