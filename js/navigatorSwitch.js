@@ -22,3 +22,11 @@ document.querySelectorAll("#marketplace").forEach(el => el.addEventListener("cli
     document.getElementById('gallery').style= "color: black;"
     document.getElementById('marketplace').style= "color: #b19124;"
 }));
+document.querySelectorAll(".contact").forEach(el => el.addEventListener("click", function() {
+    document.getElementsByClassName('magazine')[0].style= "display: none;"
+    document.getElementsByClassName('gallery')[0].style= "display: none;"
+    document.getElementsByClassName('marketplace')[0].style= "display: flex;"
+    document.getElementById('magazine').style= "color: black;"
+    document.getElementById('gallery').style= "color: black;"
+    document.getElementById('marketplace').style= "color: #b19124;"
+}));

@@ -92,6 +92,12 @@ footer {
     height: 100%;
     width: 100%;
 }
+.infoList span {
+    cursor: pointer;
+}
+.infoList span:hover {
+    color: rgb(201, 201, 201);
+}
 .socialMedia {
     display: flex;
     flex-direction: row;

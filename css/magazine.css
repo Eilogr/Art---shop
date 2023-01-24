@@ -144,9 +144,6 @@ option:hover {
     flex-flow: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    /*display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 50px;*/
 }
 .product {
     background-color: white;
@@ -184,43 +181,47 @@ option:hover {
     font-style: italic;
 }
 /*PRODUCT DEMONSTRATION*/
-.openPosition {
+.popup {
     position: fixed;
-    width: 70%;
-    min-height: 70%;
-    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+.popupBody {
+    min-height: 100%;
+    display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 99;
-    overflow:hidden;
-
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    flex-flow: column;
-    align-items: center;
+}
+.closeArea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 .productOpen {
     background-color: rgb(255, 255, 255);
-    width: 100%;
-    min-height: 80%;
+    max-width: 62%;
     position: absolute;
     display: flex;
     flex-flow: column;
     align-items: center;
-    z-index: 100%;
+}
+.productClose {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    max-width: 5%;
 }
 .productOpen img {
     width: 100%;
-}
-.openBG {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 98;
 }
 .productText {
     display: flex;
