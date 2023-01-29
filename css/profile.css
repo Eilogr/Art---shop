@@ -2,8 +2,11 @@
 /* Style the tab */
 .tab {
     overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 18.3%;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -15,6 +18,7 @@
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
+    font-size: 30px;
 }
 
 /* Change background color of buttons on hover */
@@ -30,8 +34,9 @@
 /* Style the tab content */
 .tabcontent {
     display: none;
+    width: 80%;
+    justify-content: center;
     padding: 6px 12px;
-    border: 1px solid #ccc;
     border-top: none;
 }
 /*TABS CONTENT*/
@@ -52,7 +57,6 @@ section {
     justify-content: flex-start;
 }
 section .profile {
-    width: 80%;
     background-color: white;
     padding: 1%;
 }
@@ -65,9 +69,11 @@ section .profile {
     align-items: center;
     justify-content: center;
     width: 100%;
+    word-wrap: break-word;
 }
 .setting input{
     background-color: rgb(209, 209, 209);
+    width: 100%;
 }
 .setting div div {
     display: flex;
@@ -93,6 +99,23 @@ span {
     background-color: white;
 }
 /*PURCHASE HISTORY*/
+.buyResult {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1% 0 1%;
+}
+.buyResult span {
+    font-size: 26px;
+}
+.buyResult a {
+    width: 10%;
+    float: none;
+}
+.buyResult .loginButton {
+    width: 100%;
+    float: none;
+}
 .history, .profile {
     width: 80%;
     margin-top: 2%;

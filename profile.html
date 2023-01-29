@@ -27,18 +27,22 @@
         <section>
             <!-- Tab links -->
             <div class="tab">
-                <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-                <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+                <button class="tablinks" onclick="openCity(event, 'cart')">Cart</button>
+                <button class="tablinks" onclick="openCity(event, 'history')">History</button>
+                <button class="tablinks" onclick="openCity(event, 'settings')">Settings</button>
             </div>
             <!-- Tab content -->
-                <div id="London" class="tabcontent">
+                <div id="cart" class="tabcontent">
                     <div class="history">
                         <div class="historyTitle">
                             Shopping cart
                         </div>
                         <div class="historyBorder">
                             <img src="images/historyLine.png">
+                        </div>
+                        <div class="buyResult">
+                            <span>Total: 299 000 $</span>
+                            <a href="buyingMenu.html"><button class="loginButton" type="submit">BUY</button></a>
                         </div>
                         <div class="historyList">
                             <div class="historyItem">
@@ -56,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="Paris" class="tabcontent">
+                <div id="history" class="tabcontent">
                     <div class="history">
                         <div class="historyTitle">
                             Purchase history
@@ -81,7 +85,7 @@
                         </div>
                     </div>
                 </div>     
-                <div id="Tokyo" class="tabcontent">
+                <div id="settings" class="tabcontent">
                     <div class="profile">
                         <div class="nickname">Aleks</div>
                         <div class="setting">
@@ -107,7 +111,7 @@
                             </div>
                         </div>
                         <div class="button">
-                            <a href="profile.html"><button class="loginButton" type="submit">save</button></a>
+                            <a href="#"><button class="loginButton" type="submit">save</button></a>
                         </div>
                     </div>
                 </div>
