@@ -18,13 +18,17 @@
                 </a>
             </div>
         </header>
+        <!-- Tab links -->
+        <div>
+            <section>
+                <div class="tab">
+                    <button class="tablinks" id="tablink1" onclick="openCity(event, 'clientInfo')">Client</button>
+                    <button class="tablinks" id="tablink2" onclick="openCity(event, 'delivery')">Delivery</button>
+                    <button class="tablinks" id="tablink3" onclick="openCity(event, 'paymant')">Paymant</button>
+                </div>
+            </section>
+        </div>
         <section>
-             <!-- Tab links -->
-             <div class="tab">
-                <button class="tablinks" id="tablink1" onclick="openCity(event, 'clientInfo')">Client</button>
-                <button class="tablinks" id="tablink2" onclick="openCity(event, 'delivery')">Delivery</button>
-                <button class="tablinks" id="tablink3" onclick="openCity(event, 'paymant')">Paymant</button>
-            </div>
             <!-- Tab content -->
                 <div id="clientInfo" class="tabcontent">    
                     <div>
@@ -125,22 +129,22 @@
                         <span>Paymant</span>
                     </div>
                     <div class="banks">
-                        <div>
+                        <div id="bank1">
                             <img src="images/op.png">
                         </div>
-                        <div>
+                        <div id="bank2">
                             <img src="images/op.png">
                         </div>
-                        <div>
+                        <div id="bank3"> 
                             <img src="images/op.png">
                         </div>
-                        <div>
+                        <div id="bank4">
                             <img src="images/op.png">
                         </div>
-                        <div>
+                        <div id="bank5">
                             <img src="images/op.png">
                         </div>
-                        <div>
+                        <div id="bank6">
                             <img src="images/op.png">
                         </div>
                     </div>
@@ -153,6 +157,7 @@
                     </div>  
                 </div>
         </section>
+        <script src="js/chooseBank.js"></script>
         <script src="js/openTabInOrder.js"></script>
         <script src="js/openDeliveryRadio.js"></script>
     </body>

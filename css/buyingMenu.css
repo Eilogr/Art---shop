@@ -22,6 +22,9 @@ section div, .tab {
 input, select {
     border: solid 1px black;
 }
+span {
+    font-size: 28px;
+}
 #tablink1 {
     clip-path: 
     polygon(
@@ -64,6 +67,7 @@ input, select {
 /*CLIENT INFO*/
 #clientInfo, #delivery, #paymant {
     align-items: center;
+    font-size: 18px;
 }
 #clientInfo, #delivery, #paymant, .setting1, .setting2, .setting1 div, .setting2 div {
     display: flex;
@@ -102,11 +106,16 @@ label, .deliveryContext {
     width: 80%;
 }
 .banks div {
-    box-shadow: 3px 3px 3px 3px #9b9b9b;;
+    box-shadow: 3px 3px 3px 3px #9b9b9b;
     width: 20%;
     padding: 4%;
     margin: 2%;
+    cursor: pointer;
+}
+.banks div:hover {
+    box-shadow: 3px 3px 3px 3px #c2dde3;
 }
 .banks div img {
     width: 100%;
 }
+
