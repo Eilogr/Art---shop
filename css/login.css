@@ -49,7 +49,7 @@ section {
     color: rgb(41, 41, 41);
     text-decoration: none;
 }
-span, input, a {
+span, input, a, select, option {
     font-size: 24px;
 }
 .button {

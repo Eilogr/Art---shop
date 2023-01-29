@@ -62,6 +62,7 @@ section .profile {
 }
 .nickname {
     font-size: 30px;
+    padding-left: 3.5%;
 }
 .setting {
     display: flex;
@@ -77,18 +78,24 @@ section .profile {
 }
 .setting div div {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     margin-top: 0.5%;
 }
 .setting1 {
-    width: 38%;
+    width: 50%;
 }
 .setting2 {
-    width: 52%;
+    width: 50%;
 }
 span {
     font-size: 16px;
     margin-right: 2%;
+}
+.SettText {
+    width: 30%;
+}
+.SettInput {
+    width: 70%;
 }
 .button {
     margin: 2% 0 0 0;

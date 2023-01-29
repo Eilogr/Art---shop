@@ -1,0 +1,112 @@
+/*GENERAL*/
+section {
+    padding-top: 1%;
+}
+.tab {
+    margin-bottom: 1%;
+}
+section div, .tab {
+    width: 80%;
+    background-color: white;
+}
+.tab {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    background-color: transparent;
+}
+.tab .tablinks {
+    background-color: rgb(255, 255, 255);
+    width: 33%;
+}
+input, select {
+    border: solid 1px black;
+}
+#tablink1 {
+    clip-path: 
+    polygon(
+      0% 0%,     /* верхняя левая */
+      0% 0%,     /* верхняя левая */
+      95% 0%,    /* верхняя правая */
+      100% 100%,   /* верхняя правая вввввввв*/
+      100% 100%,  /* нижняя правая */
+      100% 100%,  /* нижняя правая */
+      0% 100%,   /* нижняя левая */
+      0 0%      /* нижняя левая вввввв*/
+    );
+}
+#tablink2 {
+    clip-path: 
+    polygon(
+      0% 0%,     /* верхняя левая */
+      0% 0%,     /* верхняя левая */
+      95% 0%,    /* верхняя правая */
+      100% 100%,   /* верхняя правая вввввввв*/
+      100% 100%,  /* нижняя правая */
+      100% 100%,  /* нижняя правая */
+      5% 100%,   /* нижняя левая */
+      0 0%      /* нижняя левая вввввв*/
+    );
+}
+#tablink3 {
+    clip-path: 
+    polygon(
+      0% 0%,     /* верхняя левая */
+      0% 0%,     /* верхняя левая */
+      100% 0%,    /* верхняя правая */
+      100% 100%,   /* верхняя правая вввввввв*/
+      100% 100%,  /* нижняя правая */
+      100% 100%,  /* нижняя правая */
+      5% 100%,   /* нижняя левая */
+      0 0%      /* нижняя левая вввввв*/
+    );
+}
+/*CLIENT INFO*/
+#clientInfo, #delivery, #paymant {
+    align-items: center;
+}
+#clientInfo, #delivery, #paymant, .setting1, .setting2, .setting1 div, .setting2 div {
+    display: flex;
+    flex-flow: column;
+}
+#clientInfo div {
+    display: flex;
+}
+.button {
+    display: flex;
+    justify-content: flex-end;
+}
+.button a {
+    width: 14%;
+}
+.loginButton {
+    width: 100%;
+    font-size: 20px;
+}
+/*DELIVERY*/
+.deliveryContext {
+    display: none;
+}
+.deliveryContext select {
+    width: 30%;
+}
+label, .deliveryContext {
+    flex-flow: column;
+}
+/*PAYMENTS*/
+.banks {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: 80%;
+}
+.banks div {
+    box-shadow: 3px 3px 3px 3px #9b9b9b;;
+    width: 20%;
+    padding: 4%;
+    margin: 2%;
+}
+.banks div img {
+    width: 100%;
+}

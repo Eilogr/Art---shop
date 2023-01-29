@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/marketplace.css">
         <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/profile.css">
+        <link rel="stylesheet" href="css/buyingMenu.css">
     </head>
     <body>
         <header>
@@ -17,7 +19,141 @@
             </div>
         </header>
         <section>
-            
+             <!-- Tab links -->
+             <div class="tab">
+                <button class="tablinks" id="tablink1" onclick="openCity(event, 'clientInfo')">Client</button>
+                <button class="tablinks" id="tablink2" onclick="openCity(event, 'delivery')">Delivery</button>
+                <button class="tablinks" id="tablink3" onclick="openCity(event, 'paymant')">Paymant</button>
+            </div>
+            <!-- Tab content -->
+                <div id="clientInfo" class="tabcontent">    
+                    <div>
+                        <span>Client</span>
+                    </div>
+                    <div>
+                        <div class="setting1">
+                            <div>
+                                <div class="SettText">
+                                    <span>*Firstname:</span>
+                                </div>
+                                <div class="SettInput">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="SettText">
+                                    <span>*Address:</span>
+                                </div>
+                                <div class="SettInput">
+                                    <input type="mail">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="SettText">
+                                    <span>*Mail:</span>
+                                </div>
+                                <div class="SettInput">
+                                    <input type="mail">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="setting2">
+                            <div>
+                                <div class="SettText">
+                                    <span>*Secondname:</span>
+                                </div>
+                                <div class="SettInput">
+                                    <input type="text">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="SettText">
+                                    <span>*City:</span>
+                                </div>
+                                <div class="SettInput">
+                                    <select>
+                                        <option>Kuopio</option>
+                                        <option>Helsinki</option>
+                                        <option>Oulu</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="SettText">
+                                    <span>*Phone:</span>
+                                </div>
+                                <div class="SettInput">
+                                    <input type="mail">
+                                </div>
+                            </div>
+                        </div>  
+                    </div>                
+                    <div class="button">
+                        <a href="#"><button class="loginButton" type="submit">NEXT</button></a>
+                    </div>    
+                </div>
+                <div id="delivery" class="tabcontent">
+                    <div>
+                        <span>Delivery</span>
+                    </div>
+                    <div>
+                        <input type="radio" id="option1" name="delivery">
+                        <label for="option1">
+                            <span>Take from the shop</span>
+                            <p>Pick up a picture from the store - for free</p>
+                        </label><br>
+                        <input type="radio" id="option2" name="delivery">
+                        <label for="option2">
+                            <span>Delivery from stores</span>
+                            <p>Delivery of the painting directly to the doorstep with the help of our company delivery service - $29</p>
+                        </label><br>
+                    </div>
+                    <div class="deliveryContext">
+                        <span>Choose the store closest to you from which you will pick up the product:</span>
+                        <select>
+                            <option>Kuopio</option>
+                            <option>Rovaniemi</option>
+                            <option>Oulu</option>
+                        </select>
+                    </div>
+                    <div class="button">
+                        <a href="#"><button class="loginButton" type="submit">NEXT</button></a>
+                    </div>
+                </div>     
+                <div id="paymant" class="tabcontent">
+                    <div>
+                        <span>Paymant</span>
+                    </div>
+                    <div class="banks">
+                        <div>
+                            <img src="images/op.png">
+                        </div>
+                        <div>
+                            <img src="images/op.png">
+                        </div>
+                        <div>
+                            <img src="images/op.png">
+                        </div>
+                        <div>
+                            <img src="images/op.png">
+                        </div>
+                        <div>
+                            <img src="images/op.png">
+                        </div>
+                        <div>
+                            <img src="images/op.png">
+                        </div>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="accept">
+                        <label for="accept">Click here to indicate that you have read and agree to the terms presented in the Terms and Conditions agreement</label>
+                    </div>
+                    <div class="button">
+                        <a href="#"><button class="loginButton" type="submit">PAY</button></a>
+                    </div>  
+                </div>
         </section>
+        <script src="js/openTabInOrder.js"></script>
+        <script src="js/openDeliveryRadio.js"></script>
     </body>
 </html>
